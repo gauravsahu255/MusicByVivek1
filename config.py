@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/mrtosumemon/DoReAmOn
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THE_INCRICIBLE")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/INCRICIBLE")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ANIME_X_GOD")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ANIME_X_GOD_GROUP")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -75,18 +75,18 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/929a2ae1bba42e733aae6.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/b9b008d85f165f2e6c481.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/e12595049bd2a9fe5cfbb.jpg",
+    "https://telegra.ph/file/fac30b459be4ddf24fbaf.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/b9b008d85f165f2e6c481.jpg"
 
 TELEGRAM_AUDIO_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
 
@@ -129,9 +129,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://graph.org/file/e12595049bd2a9fe5cfbb.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/fac30b459be4ddf24fbaf.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://graph.org/file/929a2ae1bba42e733aae6.jpg"
+            START_IMG_URL = "https://telegra.ph/file/b9b008d85f165f2e6c481.jpg"
